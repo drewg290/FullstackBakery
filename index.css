@@ -26,14 +26,18 @@ nav {
   margin-bottom: 4rem;
 }
 aside {
+  display: flex;
+  flex-direction: column;
   font-size: 15pt;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 
-  margin-right: 2vw;
   border-radius: 5rem;
 }
 
 article {
+  display: flex;
+  flex-direction: column;
+
   background-color: white;
 
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -49,6 +53,8 @@ article {
 }
 
 footer {
+  display: flex;
+  justify-content: end;
   text-align: center;
   font-weight: bold;
   margin-top: 2rem;
@@ -61,11 +67,11 @@ footer {
 }
 main {
   display: flex;
-  flex: 1;
+  flex-grow: 1;
+  gap: 1ch;
 }
 li {
-  margin-top: 3vh;
-  margin-left: 0;
+  margin-top: 1rem;
   list-style-type: none;
 
   background-color: deepskyblue;
