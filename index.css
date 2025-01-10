@@ -12,6 +12,9 @@
 }
 body {
   background-image: linear-gradient(to right, #87ceeb, honeydew);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 nav {
   display: flex;
@@ -35,7 +38,7 @@ article {
 
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 10pt;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 2rem;
 }
 .testimonial {
@@ -46,16 +49,19 @@ article {
 }
 
 footer {
-  margin-left: 15rem;
+  text-align: center;
   font-weight: bold;
   margin-top: 2rem;
   border-radius: 5rem;
   padding: 1rem;
-  background-color: white;
+  background-color: black;
   display: inline-block;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
 }
 main {
   display: flex;
+  flex: 1;
 }
 li {
   margin-top: 3vh;
